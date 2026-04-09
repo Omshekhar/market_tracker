@@ -1,0 +1,6 @@
+# Ignore Python environments and tool folders
+.lmstudio/
+venv/
+.env
+__pycache__/
+*.pyc

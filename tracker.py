@@ -7,7 +7,7 @@ SYMBOLS = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA']  # List of stock symbols to 
 
 def fetch_data(symbol):
     url = f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&apikey={API_KEY}'
-    response = requests.get(url).json() 
+    response = requests.get(url, timeout=10).json()
     data = response.get('Global Quote', {})
     return data
 
