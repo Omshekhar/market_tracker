@@ -1,18 +1,6 @@
 import requests 
 import pandas as pd
 from datetime import datetime
-
-API_KEY = '3B1B82I1PBCG8JPP'  # Replace with your actual Alpha Vantage API key
-SYMBOLS = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA']  # List of stock symbols to track
-
-def fetch_data(symbol):
-    url = f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&apikey={API_KEY}'
-    response = requests.get(url, timeout=10).json()
-    data = response.get('Global Quote', {})
-    return data
-import requests 
-import pandas as pd
-from datetime import datetime
 import os
 
 API_KEY = '3B1B82I1PBCG8JPP' 
