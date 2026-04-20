@@ -4,3 +4,7 @@ venv/
 .env
 __pycache__/
 *.pyc
+tracker - Copy.py
+tracker 2.py
+trackerOld.py
+migrate_data.py
