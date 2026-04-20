@@ -1,5 +1,5 @@
 ﻿# market_tracker
-##[🚀 View the Live Executive Dashboard]
+[🚀 View the Live Executive Dashboard]
 https://datastudio.google.com/s/nmZmVCAlPfA
 # Real-Time Market Tracker & Data Pipeline
 
