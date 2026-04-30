@@ -1,6 +1,6 @@
 ﻿# market_tracker
 [🚀 View the Live Executive Dashboard]
-https://datastudio.google.com/s/nmZmVCAlPfA
+https://datastudio.google.com/s/oLKzu00XUQQ
 # Real-Time Market Tracker & Data Pipeline
 
 An automated data engineering project that tracks real-time stock market data, processes historical price trends, and feeds a live Executive Dashboard in Looker Studio.
